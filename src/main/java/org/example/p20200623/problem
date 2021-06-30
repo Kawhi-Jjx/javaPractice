@@ -1,0 +1,7 @@
+practice1:
+使用反射的原理新建一个student类的实例对象"obj"
+用反射原理修改obj.book字段的值为："php开发大全"
+用反射原理调用obj.showBook方法
+tips：
+类的class对象可以通过方法获取到类的构造函数、字段、方法
+Class.forName(String arg)可以获取到类的class方法
